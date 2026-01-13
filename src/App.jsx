@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from './Navbar';
 import Product from './Product';
-import Cardc from './cardc';
+import Cardc from './Cardc';
 
 
 const App = () => {
