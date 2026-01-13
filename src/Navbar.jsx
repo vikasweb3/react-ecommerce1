@@ -13,20 +13,20 @@ const Navbar = ({data,setfdata,cart,cartshow,setcartshow}) => {
             setfdata(data)
         }}>All</button>
         <button onClick={()=>{
-            filterr("Beauty & Personal Care")
-        }}>Beauty & Personal Care</button>
+            filterr("electronics")
+        }}>electronics</button>
         <button onClick={()=>{
-            filterr("Electronics & Gadgets")
-        }}>Electronics & Gadgets</button>
+            filterr("jewelery")
+        }}>jewelery</button>
         <button onClick={()=>{
-            filterr("Home & Kitchen")
-        }}>Home & Kitchen</button>
+            filterr("men's clothing")
+        }}> men's clothing</button>
         <button onClick={()=>{
-            filterr("Fashion & Apparel")
-        }}>Fashion & Apparel</button>
-        <button onClick={()=>{
+            filterr("women's clothing")
+        }}>women's clothing</button>
+        {/* <button onClick={()=>{
             filterr("Health & Fitness")
-        }}>Health & Fitness</button>
+        }}>Health & Fitness</button> */}
         <button onClick={()=>{
             if(cartshow){
                 setcartshow(false);

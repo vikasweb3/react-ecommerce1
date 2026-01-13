@@ -14,7 +14,7 @@ const App = () => {
 console.log(cart);
   
   async function fetchh() {
-    const res = await fetch('../data.json');
+    const res = await fetch('https://fakestoreapi.com/products');
     const fdata = await res.json();
     setdata(fdata)
   }
